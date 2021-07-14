@@ -67,7 +67,6 @@ Func Terminate()
    ElseIf $paused == True then
 	  $paused = False
 	  Auto()
-	  GUICtrlSetColor($Button1,0xFF0000)
    EndIf
 EndFunc
 
